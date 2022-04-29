@@ -1,3 +1,2 @@
 # FristRepositorio
-Read me
-Exersice of the a Student
+Read me: Exersice of the a Student
