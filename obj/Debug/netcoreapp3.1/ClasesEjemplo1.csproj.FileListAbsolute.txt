@@ -1,0 +1,98 @@
+C:\Users\Admin\Desktop\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.exe
+C:\Users\Admin\Desktop\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.deps.json
+C:\Users\Admin\Desktop\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.runtimeconfig.json
+C:\Users\Admin\Desktop\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.dll
+C:\Users\Admin\Desktop\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.pdb
+C:\Users\Admin\Desktop\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.AssemblyInfo.cs
+C:\Users\Admin\Desktop\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.dll
+C:\Users\Admin\Desktop\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.pdb
+C:\Users\Admin\Desktop\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.genruntimeconfig.cache
+G:\Tec trabajos\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.exe
+G:\Tec trabajos\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.deps.json
+G:\Tec trabajos\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.runtimeconfig.json
+G:\Tec trabajos\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.runtimeconfig.dev.json
+G:\Tec trabajos\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.dll
+G:\Tec trabajos\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.pdb
+G:\Tec trabajos\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.csproj.AssemblyReference.cache
+G:\Tec trabajos\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.GeneratedMSBuildEditorConfig.editorconfig
+G:\Tec trabajos\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.AssemblyInfoInputs.cache
+G:\Tec trabajos\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.AssemblyInfo.cs
+G:\Tec trabajos\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.csproj.CoreCompileInputs.cache
+G:\Tec trabajos\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.dll
+G:\Tec trabajos\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.pdb
+G:\Tec trabajos\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.genruntimeconfig.cache
+E:\Tec trabajos\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.exe
+E:\Tec trabajos\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.deps.json
+E:\Tec trabajos\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.runtimeconfig.json
+E:\Tec trabajos\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.runtimeconfig.dev.json
+E:\Tec trabajos\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.dll
+E:\Tec trabajos\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.pdb
+E:\Tec trabajos\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.csproj.AssemblyReference.cache
+E:\Tec trabajos\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.GeneratedMSBuildEditorConfig.editorconfig
+E:\Tec trabajos\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.AssemblyInfoInputs.cache
+E:\Tec trabajos\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.AssemblyInfo.cs
+E:\Tec trabajos\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.csproj.CoreCompileInputs.cache
+E:\Tec trabajos\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.dll
+E:\Tec trabajos\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.pdb
+E:\Tec trabajos\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.genruntimeconfig.cache
+F:\Tec trabajos\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.exe
+F:\Tec trabajos\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.deps.json
+F:\Tec trabajos\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.runtimeconfig.json
+F:\Tec trabajos\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.runtimeconfig.dev.json
+F:\Tec trabajos\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.dll
+F:\Tec trabajos\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.pdb
+F:\Tec trabajos\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.csproj.AssemblyReference.cache
+F:\Tec trabajos\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.GeneratedMSBuildEditorConfig.editorconfig
+F:\Tec trabajos\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.AssemblyInfoInputs.cache
+F:\Tec trabajos\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.AssemblyInfo.cs
+F:\Tec trabajos\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.csproj.CoreCompileInputs.cache
+F:\Tec trabajos\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.dll
+F:\Tec trabajos\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.pdb
+F:\Tec trabajos\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.genruntimeconfig.cache
+G:\Tec trabajos\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.exe
+G:\Tec trabajos\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.deps.json
+G:\Tec trabajos\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.runtimeconfig.json
+G:\Tec trabajos\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.runtimeconfig.dev.json
+G:\Tec trabajos\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.dll
+G:\Tec trabajos\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.pdb
+G:\Tec trabajos\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.csproj.AssemblyReference.cache
+G:\Tec trabajos\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.GeneratedMSBuildEditorConfig.editorconfig
+G:\Tec trabajos\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.AssemblyInfoInputs.cache
+G:\Tec trabajos\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.AssemblyInfo.cs
+G:\Tec trabajos\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.csproj.CoreCompileInputs.cache
+G:\Tec trabajos\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.dll
+G:\Tec trabajos\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.pdb
+G:\Tec trabajos\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.genruntimeconfig.cache
+F:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.exe
+F:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.deps.json
+F:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.runtimeconfig.json
+F:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.runtimeconfig.dev.json
+F:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.dll
+F:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.pdb
+F:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.csproj.AssemblyReference.cache
+F:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.GeneratedMSBuildEditorConfig.editorconfig
+F:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.AssemblyInfoInputs.cache
+F:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.AssemblyInfo.cs
+F:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.csproj.CoreCompileInputs.cache
+F:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.dll
+F:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.pdb
+F:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.genruntimeconfig.cache
+E:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.exe
+E:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.deps.json
+E:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.runtimeconfig.json
+E:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.runtimeconfig.dev.json
+E:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.dll
+E:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.pdb
+E:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.csproj.AssemblyReference.cache
+E:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.GeneratedMSBuildEditorConfig.editorconfig
+E:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.AssemblyInfoInputs.cache
+E:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.AssemblyInfo.cs
+E:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.csproj.CoreCompileInputs.cache
+E:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.dll
+E:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.pdb
+E:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.genruntimeconfig.cache
