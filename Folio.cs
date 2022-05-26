@@ -6,6 +6,6 @@ namespace ClasesEjemplo1
 {
     static class Folio
     {
-       public static int numeroFolio = 1;
+       public static int numeroFolio = 0;
     }
 }

@@ -96,3 +96,17 @@ E:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\
 E:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.dll
 E:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.pdb
 E:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.genruntimeconfig.cache
+G:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.exe
+G:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.deps.json
+G:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.runtimeconfig.json
+G:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.runtimeconfig.dev.json
+G:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.dll
+G:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.pdb
+G:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.csproj.AssemblyReference.cache
+G:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.GeneratedMSBuildEditorConfig.editorconfig
+G:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.AssemblyInfoInputs.cache
+G:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.AssemblyInfo.cs
+G:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.csproj.CoreCompileInputs.cache
+G:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.dll
+G:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.pdb
+G:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.genruntimeconfig.cache
