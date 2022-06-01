@@ -79,7 +79,7 @@ namespace ClasesEjemplo1
             //  //---------------------------------------------------------------------------------
             #endregion
 
-            //Console.WindowHeight = 20;
+            //Console.WindowHeight = 28;
             //Console.WindowWidth = 40;
 
             #region OldCodeV2.0
@@ -142,69 +142,239 @@ namespace ClasesEjemplo1
             Console.WriteLine("InscribeTEC");
             Console.WriteLine("Opciones:\n\t1. Inscribir Ususario\n\t2.Salir");
             opcion = byte.Parse(Console.ReadLine());
-
-            while (opcion==1)
+            
+            while (opcion == 1)
             {
-                string nombre, apellidoPaterno, apellidoMaterno;
-                DateTime fechaNacimiento;
-                Console.WriteLine("Ingresa el nombre(s) del alumno: ");
-                nombre = Console.ReadLine();
-                Console.WriteLine("Ingresa el primer aplellido del alumno: ");
-                apellidoPaterno = Console.ReadLine();
-                Console.WriteLine("Ingresa el segundo aplellido del alumno: ");
-                apellidoMaterno = Console.ReadLine();
-                Console.WriteLine("Ingresa la fecha de nacimiento del alumno: ");
-                fechaNacimiento = Convert.ToDateTime(Console.ReadLine());
+                ConsoleKeyInfo carreraElegida;
+                Console.WriteLine("¿A que carrera se inscribirá el alumno?\n\n" +
+                    "1. Ingieneria en Sistemas Computacionales 'ISIC'\t 2. Ingieneria Industrial 'INID'\n" +
+                    "3. Inieneria en Gestion Empresarial 'IGEM'   \t        4. Ingieneria en Logistica 'ILOG'");
+                carreraElegida = Console.ReadKey();
 
-                //Crear obejeto de la clase heredada ISIC
-                ISIC objISIC = new ISIC(nombre, apellidoPaterno, apellidoMaterno, DateTime.Now, fechaNacimiento);
-                Console.WriteLine(objISIC.InformacionDePago());
-
-                //Instanciar una clase
-                Alumno alumno = new Alumno(nombre, apellidoPaterno, apellidoMaterno, DateTime.Now, fechaNacimiento);
-                //Console.WriteLine(alumno.InformacionDePago());
-
-                Console.WriteLine("Desea modificar un dato\nS. SI\tN. No");
-                opcionDatos = Console.ReadKey();
-                while (opcionDatos.Key == ConsoleKey.S)
+                #region Carera_ISIC
+                if (carreraElegida.Key == ConsoleKey.D1)
                 {
-                    if (opcionDatos.Key == ConsoleKey.S)
-                    {
-                        Console.WriteLine("\nSeleccione una de las siguientes opciones:\nA. Actualizar la fecha de nacimiento\n" +
-                        "B. Calcular pago inscripción\nC. Actualizar edad del Alumno");
-                        actualizacionDatos = Console.ReadKey();
-                        if (actualizacionDatos.Key == ConsoleKey.A)
-                        {
-                            Console.WriteLine("\nActualice la fecha de nacimiento correcta del alumno {0}", nombre);
-                            alumno.FechaNacimiento = Convert.ToDateTime(Console.ReadLine());
-                            Console.WriteLine("\nDatos actualizados\n{0}", objISIC.InformacionDePago());
-                        }
-                        if (actualizacionDatos.Key == ConsoleKey.B)
-                        {
-                            Console.WriteLine("\nActualice el promedio correcto del alumno {0}", nombre);
-                            alumno.CalcularInscripcion(promedioAlumno = Convert.ToDouble(Console.ReadLine()));
-                            Console.WriteLine("\nDatos actualizados\n{0}", objISIC.InformacionDePago());
-                        }
-                        if (actualizacionDatos.Key == ConsoleKey.C)
-                        {
-                            Console.WriteLine("\nActualice la fecha de naciemiento correcta del alumno {0}", nombre);
-                            alumno.EdadAlumnoCalculo2(fechaNacimiento = Convert.ToDateTime(Console.ReadLine()));
-                            Console.WriteLine("\nDatos actualizados\n{0}", objISIC.InformacionDePago());
-                        }
-                    }
-                    Console.WriteLine("¿Desea modificar otro dato?\nS. SI\tN. No");
+                    string nombre, apellidoPaterno, apellidoMaterno;
+                    DateTime fechaNacimiento;
+                    char grupo;
+                    Console.WriteLine("\nIngresa el nombre(s) del alumno: ");
+                    nombre = Console.ReadLine();
+                    Console.WriteLine("Ingresa el primer aplellido del alumno: ");
+                    apellidoPaterno = Console.ReadLine();
+                    Console.WriteLine("Ingresa el segundo aplellido del alumno: ");
+                    apellidoMaterno = Console.ReadLine();
+                    Console.WriteLine("Ingresa la fecha de nacimiento del alumno: ");
+                    fechaNacimiento = Convert.ToDateTime(Console.ReadLine());
+                    Console.WriteLine("Ingresa el grupo donde se registrará al alumno: ");
+                    grupo = Convert.ToChar(Console.ReadLine());
+
+                    ISIC objISIC = new ISIC(grupo, nombre, apellidoPaterno, apellidoMaterno, DateTime.Now, fechaNacimiento);
+                    objISIC.InformacionDePago();
+
+                    Console.WriteLine("Desea modificar un dato\nS. SI\tN. No");
                     opcionDatos = Console.ReadKey();
+                    while (opcionDatos.Key == ConsoleKey.S)
+                    {
+                        if (opcionDatos.Key == ConsoleKey.S)
+                        {
+                            Console.WriteLine("\nSeleccione una de las siguientes opciones:\nA. Actualizar la fecha de nacimiento\n" +
+                            "B. Calcular pago inscripción\nC. Actualizar edad del Alumno");
+                            actualizacionDatos = Console.ReadKey();
+                            if (actualizacionDatos.Key == ConsoleKey.A)
+                            {
+                                Console.WriteLine("\nActualice la fecha de nacimiento correcta del alumno {0}", nombre);
+                                objISIC.FechaNacimiento = Convert.ToDateTime(Console.ReadLine());
+                                Console.WriteLine("\nDatos actualizados\n"); objISIC.InformacionDePago();
+                            }
+                            if (actualizacionDatos.Key == ConsoleKey.B)
+                            {
+                                Console.WriteLine("\nActualice el promedio correcto del alumno {0}", nombre);
+                                objISIC.CalcularInscripcion(promedioAlumno = Convert.ToDouble(Console.ReadLine()));
+                                Console.WriteLine("\nDatos actualizados\n{0}"); objISIC.InformacionDePago();
+                            }
+                            if (actualizacionDatos.Key == ConsoleKey.C)
+                            {
+                                Console.WriteLine("\nActualice la fecha de naciemiento correcta del alumno {0}", nombre);
+                                objISIC.EdadAlumnoCalculo2(fechaNacimiento = Convert.ToDateTime(Console.ReadLine()));
+                                Console.WriteLine("\nDatos actualizados\n{0}"); objISIC.InformacionDePago();
+                            }
+                        }
+                        Console.WriteLine("¿Desea modificar otro dato?\nS. SI\tN. No");
+                        opcionDatos = Console.ReadKey();
+                    }
                 }
+                #endregion
+
+                #region Carrera_INID
+                if (carreraElegida.Key == ConsoleKey.D2)
+                {
+                    string nombre, apellidoPaterno, apellidoMaterno;
+                    DateTime fechaNacimiento;
+                    char grupo;
+                    Console.WriteLine("\nIngresa el nombre(s) del alumno: ");
+                    nombre = Console.ReadLine();
+                    Console.WriteLine("Ingresa el primer aplellido del alumno: ");
+                    apellidoPaterno = Console.ReadLine();
+                    Console.WriteLine("Ingresa el segundo aplellido del alumno: ");
+                    apellidoMaterno = Console.ReadLine();
+                    Console.WriteLine("Ingresa la fecha de nacimiento del alumno: ");
+                    fechaNacimiento = Convert.ToDateTime(Console.ReadLine());
+                    Console.WriteLine("Ingresa el grupo donde se registrará al alumno: ");
+                    grupo = Convert.ToChar(Console.ReadLine());
+
+                    INID objINID = new INID(grupo, nombre, apellidoPaterno, apellidoMaterno, DateTime.Now, fechaNacimiento);
+                    objINID.InformacionDePago();
+
+                    Console.WriteLine("Desea modificar un dato\nS. SI\tN. No");
+                    opcionDatos = Console.ReadKey();
+                    while (opcionDatos.Key == ConsoleKey.S)
+                    {
+                        if (opcionDatos.Key == ConsoleKey.S)
+                        {
+                            Console.WriteLine("\nSeleccione una de las siguientes opciones:\nA. Actualizar la fecha de nacimiento\n" +
+                            "B. Calcular pago inscripción\nC. Actualizar edad del Alumno");
+                            actualizacionDatos = Console.ReadKey();
+                            if (actualizacionDatos.Key == ConsoleKey.A)
+                            {
+                                Console.WriteLine("\nActualice la fecha de nacimiento correcta del alumno {0}", nombre);
+                                objINID.FechaNacimiento = Convert.ToDateTime(Console.ReadLine());
+                                Console.WriteLine("\nDatos actualizados\n"); objINID.InformacionDePago();
+                            }
+                            if (actualizacionDatos.Key == ConsoleKey.B)
+                            {
+                                Console.WriteLine("\nActualice el promedio correcto del alumno {0}", nombre);
+                                objINID.CalcularInscripcion(promedioAlumno = Convert.ToDouble(Console.ReadLine()));
+                                Console.WriteLine("\nDatos actualizados\n{0}"); objINID.InformacionDePago();
+                            }
+                            if (actualizacionDatos.Key == ConsoleKey.C)
+                            {
+                                Console.WriteLine("\nActualice la fecha de naciemiento correcta del alumno {0}", nombre);
+                                objINID.EdadAlumnoCalculo2(fechaNacimiento = Convert.ToDateTime(Console.ReadLine()));
+                                Console.WriteLine("\nDatos actualizados\n{0}"); objINID.InformacionDePago();
+                            }
+                        }
+                        Console.WriteLine("¿Desea modificar otro dato?\nS. SI\tN. No");
+                        opcionDatos = Console.ReadKey();
+                    }
+                }
+                #endregion
+
+                #region Carrera_IGEM
+                if (carreraElegida.Key == ConsoleKey.D3)
+                {
+                    string nombre, apellidoPaterno, apellidoMaterno;
+                    DateTime fechaNacimiento;
+                    char grupo;
+                    Console.WriteLine("\nIngresa el nombre(s) del alumno: ");
+                    nombre = Console.ReadLine();
+                    Console.WriteLine("Ingresa el primer aplellido del alumno: ");
+                    apellidoPaterno = Console.ReadLine();
+                    Console.WriteLine("Ingresa el segundo aplellido del alumno: ");
+                    apellidoMaterno = Console.ReadLine();
+                    Console.WriteLine("Ingresa la fecha de nacimiento del alumno: ");
+                    fechaNacimiento = Convert.ToDateTime(Console.ReadLine());
+                    Console.WriteLine("Ingresa el grupo donde se registrará al alumno: ");
+                    grupo = Convert.ToChar(Console.ReadLine());
+
+                    IGEM objIGEM = new IGEM(grupo, nombre, apellidoPaterno, apellidoMaterno, DateTime.Now, fechaNacimiento);
+                    objIGEM.InformacionDePago();
+
+                    Console.WriteLine("Desea modificar un dato\nS. SI\tN. No");
+                    opcionDatos = Console.ReadKey();
+                    while (opcionDatos.Key == ConsoleKey.S)
+                    {
+                        if (opcionDatos.Key == ConsoleKey.S)
+                        {
+                            Console.WriteLine("\nSeleccione una de las siguientes opciones:\nA. Actualizar la fecha de nacimiento\n" +
+                            "B. Calcular pago inscripción\nC. Actualizar edad del Alumno");
+                            actualizacionDatos = Console.ReadKey();
+                            if (actualizacionDatos.Key == ConsoleKey.A)
+                            {
+                                Console.WriteLine("\nActualice la fecha de nacimiento correcta del alumno {0}", nombre);
+                                objIGEM.FechaNacimiento = Convert.ToDateTime(Console.ReadLine());
+                                Console.WriteLine("\nDatos actualizados\n"); objIGEM.InformacionDePago();
+                            }
+                            if (actualizacionDatos.Key == ConsoleKey.B)
+                            {
+                                Console.WriteLine("\nActualice el promedio correcto del alumno {0}", nombre);
+                                objIGEM.CalcularInscripcion(promedioAlumno = Convert.ToDouble(Console.ReadLine()));
+                                Console.WriteLine("\nDatos actualizados\n{0}"); objIGEM.InformacionDePago();
+                            }
+                            if (actualizacionDatos.Key == ConsoleKey.C)
+                            {
+                                Console.WriteLine("\nActualice la fecha de naciemiento correcta del alumno {0}", nombre);
+                                objIGEM.EdadAlumnoCalculo2(fechaNacimiento = Convert.ToDateTime(Console.ReadLine()));
+                                Console.WriteLine("\nDatos actualizados\n{0}"); objIGEM.InformacionDePago();
+                            }
+                        }
+                        Console.WriteLine("¿Desea modificar otro dato?\nS. SI\tN. No");
+                        opcionDatos = Console.ReadKey();
+                    }
+                }
+                #endregion
+
+                #region Carrera_ILOG
+                if (carreraElegida.Key == ConsoleKey.D4)
+                {
+                    string nombre, apellidoPaterno, apellidoMaterno;
+                    DateTime fechaNacimiento;
+                    char grupo;
+                    Console.WriteLine("\nIngresa el nombre(s) del alumno: ");
+                    nombre = Console.ReadLine();
+                    Console.WriteLine("Ingresa el primer aplellido del alumno: ");
+                    apellidoPaterno = Console.ReadLine();
+                    Console.WriteLine("Ingresa el segundo aplellido del alumno: ");
+                    apellidoMaterno = Console.ReadLine();
+                    Console.WriteLine("Ingresa la fecha de nacimiento del alumno: ");
+                    fechaNacimiento = Convert.ToDateTime(Console.ReadLine());
+                    Console.WriteLine("Ingresa el grupo donde se registrará al alumno: ");
+                    grupo = Convert.ToChar(Console.ReadLine());
+
+                    ILOG objILOG = new ILOG(grupo, nombre, apellidoPaterno, apellidoMaterno, DateTime.Now, fechaNacimiento);
+                    objILOG.InformacionDePago();
+
+                    Console.WriteLine("Desea modificar un dato\nS. SI\tN. No");
+                    opcionDatos = Console.ReadKey();
+                    while (opcionDatos.Key == ConsoleKey.S)
+                    {
+                        if (opcionDatos.Key == ConsoleKey.S)
+                        {
+                            Console.WriteLine("\nSeleccione una de las siguientes opciones:\nA. Actualizar la fecha de nacimiento\n" +
+                            "B. Calcular pago inscripción\nC. Actualizar edad del Alumno");
+                            actualizacionDatos = Console.ReadKey();
+                            if (actualizacionDatos.Key == ConsoleKey.A)
+                            {
+                                Console.WriteLine("\nActualice la fecha de nacimiento correcta del alumno {0}", nombre);
+                                objILOG.FechaNacimiento = Convert.ToDateTime(Console.ReadLine());
+                                Console.WriteLine("\nDatos actualizados\n"); objILOG.InformacionDePago();
+                            }
+                            if (actualizacionDatos.Key == ConsoleKey.B)
+                            {
+                                Console.WriteLine("\nActualice el promedio correcto del alumno {0}", nombre);
+                                objILOG.CalcularInscripcion(promedioAlumno = Convert.ToDouble(Console.ReadLine()));
+                                Console.WriteLine("\nDatos actualizados\n{0}"); objILOG.InformacionDePago();
+                            }
+                            if (actualizacionDatos.Key == ConsoleKey.C)
+                            {
+                                Console.WriteLine("\nActualice la fecha de naciemiento correcta del alumno {0}", nombre);
+                                objILOG.EdadAlumnoCalculo2(fechaNacimiento = Convert.ToDateTime(Console.ReadLine()));
+                                Console.WriteLine("\nDatos actualizados\n{0}"); objILOG.InformacionDePago();
+                            }
+                        }
+                        Console.WriteLine("¿Desea modificar otro dato?\nS. SI\tN. No");
+                        opcionDatos = Console.ReadKey();
+                    }
+                }
+                #endregion
+
+                Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine("\nInscribeTEC");
                 Console.WriteLine("Opciones:\n\t1. Inscribir Ususario\n\t2.Salir");
-                opcion = byte.Parse(Console.ReadLine());  
+                opcion = byte.Parse(Console.ReadLine());
             }
 
             //Crear obejeto de la clase heredada ISIC
-            //ISIC objISIC = new ISIC();
-            //Console.WriteLine(objISIC.InformacionDePago());
-
-
+            
             Console.ReadKey();
         }
     }

@@ -26,8 +26,8 @@ namespace ClasesEjemplo1
         #region constructores
         //Tipo de acceso | nombre de la clase (entrada) {}                  "Los constructores siempre son de tipo public"
 
-        public Alumno (string nombreAlumnoEntrada, string apellidoPrimeroEntrada, string apellidoSegundoEntrada, DateTime fechaRegistroEntrada, 
-           DateTime fechaDeNacimientoEntrada, string carreraAlumnoEntrada)
+        public Alumno (string nombreAlumnoEntrada, string apellidoPrimeroEntrada, DateTime fechaRegistroEntrada, 
+           DateTime fechaDeNacimientoEntrada)
         {                    //Hay declaraciones Especificas ";" e Implicitas "El constructor"
 
             nombreAlumno = nombreAlumnoEntrada;
@@ -38,14 +38,11 @@ namespace ClasesEjemplo1
             matricula = (fechaDeRegistro.Year + "" + numeroTecnologico).Substring(2,5)+""+Folio.numeroFolio;
             Folio.numeroFolio += 1;
 
-            curpAlumno = ((apellidoPrimero).Substring(0, 2)) + "" + ((apellidoSegundo).Substring(0, 1)) + "" + ((nombreAlumno).Substring(0, 1))
-                + "" + ((fechaDeNacimiento.Year) + "" + (Convert.ToString(fechaDeNacimiento).Substring(3, 2)) + "" +
-                (Convert.ToString(fechaDeNacimiento).Substring(0, 2))).Substring(2, 6);
+            //curpAlumno = ((apellidoPrimero).Substring(0, 2)) + "" + ((apellidoSegundo).Substring(0, 1)) + "" + ((nombreAlumno).Substring(0, 1))
+            //    + "" + ((fechaDeNacimiento.Year) + "" + (Convert.ToString(fechaDeNacimiento).Substring(3, 2)) + "" +
+            //    (Convert.ToString(fechaDeNacimiento).Substring(0, 2))).Substring(2, 6);
 
             fechaDeNacimiento = fechaDeNacimientoEntrada;
-            apellidoSegundo = apellidoSegundoEntrada;
-            
-            carreraAlumno = carreraAlumnoEntrada;
 
             if (Folio.numeroFolio >=1 && Folio.numeroFolio <=9)
             {
@@ -96,14 +93,14 @@ namespace ClasesEjemplo1
             }
         }
 
-        //public Alumno ()
-        //{
+        public Alumno()
+        {
 
-        //}
+        }
         #endregion
 
         //--------------------------------------Miembros de tipo propiedad (proteger algun campo)---------------------------------------
-        
+
         #region propiedades
         public string NombreAlumno
         {
@@ -192,8 +189,6 @@ namespace ClasesEjemplo1
             return valorDeRetorno;
         }
 
-       
-        
         public string EdadAlumnoCalculo2(DateTime fechaNacimientoEntrada)
         {
             int edad;
@@ -211,7 +206,6 @@ namespace ClasesEjemplo1
             return valorDeRetorno;
         }
        
-
         #region Mi intento de calcular la matricula
         /*                                Mi intento de calcular la matricula
         //Metodo MatriculaAlumno
@@ -281,9 +275,10 @@ namespace ClasesEjemplo1
         //    return valorDeRetorno;
         //}
 
-        public virtual string InformacionDePago() //Sobrecarga   | key word: virtual para pobre escribir
+        public virtual void InformacionDePago() //Sobrecarga   | key word: virtual para pobre escribir
         {
-            string valorDeRetorno;
+            Console.ForegroundColor = ConsoleColor.DarkRed;
+            string valorRetorno;
             if (promedioGlobal == 0)
             {
                 Console.WriteLine("Ingresa el promedio del alumno: ");
@@ -293,12 +288,12 @@ namespace ClasesEjemplo1
 
                 if (promedioGlobal >= 80)
                 {
-                    valorDeRetorno = string.Format("Matricula: {0}\nAlumno: {1} {2} {3}\nTotal a pagar: $ {4}\nDescuento: SI\n", matricula,
+                    valorRetorno=string.Format("Matrícula: {0}\nAlumno: {1} {2} {3}\nTotal a pagar: $ {4}\nDescuento: SI\n", matricula,
                     nombreAlumno, apellidoPrimero, apellidoSegundo, CalcularInscripcion(promedioGlobal));
                 }
                 else
                 {
-                    valorDeRetorno = string.Format("Matricula: {0}\nAlumno: {1} {2} {3}\nTotal a pagar: $ {4}\nDescuento: NO\n", matricula,
+                    valorRetorno = string.Format("Matrícula: {0}\nAlumno: {1} {2} {3}\nTotal a pagar: $ {4}\nDescuento: NO\n", matricula,
                     nombreAlumno, apellidoPrimero, apellidoSegundo, CalcularInscripcion(promedioGlobal));
                 }
             }
@@ -307,19 +302,18 @@ namespace ClasesEjemplo1
 
                 if (promedioGlobal >= 80)
                 {
-                    valorDeRetorno = string.Format("Matricula: {0}\nAlumno: {1} {2} {3}\nTotal a pagar: $ {4}\nDescuento: SI\n", matricula,
+                    valorRetorno = string.Format("Matrícula: {0}\nAlumno: {1} {2} {3}\nTotal a pagar: $ {4}\nDescuento: SI\n", matricula,
                     nombreAlumno, apellidoPrimero, apellidoSegundo, CalcularInscripcion(promedioGlobal));
                 }
                 else
                 {
-                    valorDeRetorno = string.Format("Matricula: {0}\nAlumno: {1} {2} {3}\nTotal a pagar: $ {4}\nDescuento: NO\n", matricula,
+                    valorRetorno = string.Format("Matrícula: {0}\nAlumno: {1} {2} {3}\nTotal a pagar: $ {4}\nDescuento: NO\n", matricula,
                     nombreAlumno, apellidoPrimero, apellidoSegundo, CalcularInscripcion(promedioGlobal));
                 }
             }
-            return valorDeRetorno;
+            Console.WriteLine(valorRetorno);
         }
         #endregion
 
-        
     }
 }

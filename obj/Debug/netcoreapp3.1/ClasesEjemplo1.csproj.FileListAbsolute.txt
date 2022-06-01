@@ -110,3 +110,17 @@ G:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\
 G:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.dll
 G:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.pdb
 G:\Escuela\Tec trabajos\2do Semestre Tec\TareaPOO\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.genruntimeconfig.cache
+C:\Users\Hp-\Documents\Programas C#\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.exe
+C:\Users\Hp-\Documents\Programas C#\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.deps.json
+C:\Users\Hp-\Documents\Programas C#\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.runtimeconfig.json
+C:\Users\Hp-\Documents\Programas C#\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.runtimeconfig.dev.json
+C:\Users\Hp-\Documents\Programas C#\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.dll
+C:\Users\Hp-\Documents\Programas C#\ClasesEjemplo1\ClasesEjemplo1\bin\Debug\netcoreapp3.1\ClasesEjemplo1.pdb
+C:\Users\Hp-\Documents\Programas C#\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.csproj.AssemblyReference.cache
+C:\Users\Hp-\Documents\Programas C#\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp-\Documents\Programas C#\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.AssemblyInfoInputs.cache
+C:\Users\Hp-\Documents\Programas C#\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.AssemblyInfo.cs
+C:\Users\Hp-\Documents\Programas C#\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.csproj.CoreCompileInputs.cache
+C:\Users\Hp-\Documents\Programas C#\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.dll
+C:\Users\Hp-\Documents\Programas C#\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.pdb
+C:\Users\Hp-\Documents\Programas C#\ClasesEjemplo1\ClasesEjemplo1\obj\Debug\netcoreapp3.1\ClasesEjemplo1.genruntimeconfig.cache
